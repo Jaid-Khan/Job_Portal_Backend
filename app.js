@@ -8,7 +8,7 @@ const postRoutes = require("./routes/postRoutes");
 const app = express();
 
 app.use(cors({
-    origin: "*"
+    origin: "https://alwaysonlinejobs.netlify.app"
 }));
 app.use(express.json());
 
